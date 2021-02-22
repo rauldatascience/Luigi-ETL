@@ -109,6 +109,7 @@ class transform_data(luigi.Task):
         dataset['facilities'] = dataset['facilities'].apply(lambda x: change_facilities(x))
         dataset['cost_for_two'] = dataset['cost_for_two'].apply(lambda x: change_int(x))
 
+        dataset.to_csv(r'/Users/macbookpro/Documents/ETL_Proj_Zomato/records_2.csv', index = False)
 
 class load_data(luigi.Task):
     def requires(self):
