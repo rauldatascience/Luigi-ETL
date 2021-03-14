@@ -8,7 +8,7 @@ Imagine we have a project that gathering the data from particular platform (curr
 
 Luigi is an execution framework that allows you to write data pipelines in Python. This workflow engine supports tasks dependencies and includes a central scheduler that provides a detailed library for helpers to build data pipes in PostgreSQL, MySQL, AWS, and Hadoop. Not only is it easy to depend on the tasks defined in its repos, you can easily fork execution paths and use output of one task as the input of the second task. This framework was written by Spotify and became open source in 2012. Many popular companies such as Stripe, Foursquare, and Asana use this Luigi workflow engine.
 
-![alt text](https://miro.medium.com/max/2000/1*fU3HV_CBmvO6XPJIhb0vkA.png)
+![alt text](https://miro.medium.com/max/1400/0*LPd5Fs0liE1TUM3o)
 
 ### Prerequisites
 
